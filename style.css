@@ -1,0 +1,167 @@
+/*
+Theme Name: Stock
+Theme URI: http://underscores.me/
+Author: CrazyCafe
+Author URI: http://crazycafe.net
+Description: CrazyCafe WordPress Theme
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: LICENSE
+Text Domain: stock-crazycafe
+Tags:
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Noto+Serif:400,400i,700,700i|Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    line-height: 1.7;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Noto Serif', serif;
+    font-weight: bold;
+}
+
+.header-area {
+    padding-top: 30px;
+}
+
+.site-logo a {
+    color: #000;
+}
+
+.site-logo h2 {
+    margin: 0;
+    padding: 8px 0;
+}
+
+.stock-contact-box {
+    display: inline-block;
+    position: relative;
+    padding-left: 65px;
+    font-size: 16px;
+    color: #666;
+    margin-right: 10px;
+}
+
+.header-right-content {
+    position: relative;
+    padding-right: 55px;
+}
+
+.stock-cart, .stock-contact-box i.fa {
+    position: absolute;
+    top: 0;
+    right: 0;
+    border: 1px solid #d9e4ea;
+    height: 53px;
+    width: 53px;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 50%;
+}
+
+.stock-cart span.stock-cart-count {
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    display: block;
+    width: 30px;
+    height: 30px;
+    background: #1e8bc3;
+    color: #fff;
+    border-radius: 50%;
+    line-height: 30px;
+}
+
+.stock-contact-box i.fa {
+    top: 50%;
+    left: 0;
+    line-height: 48px;
+    margin-top: -26.5px;
+}
+
+.stock-contact-box h3 {
+    color: #333;
+    font-size: 20px;
+    margin: 0;
+    margin-top: 5px;
+}
+
+.main-menu {
+    border-top: 1px solid #d9e4ea;
+    margin-top: 30px;
+}
+
+.main-menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.main-menu ul li {
+    display: inline-block;
+    position: relative;
+}
+
+.main-menu ul li a {
+    display: block;
+    padding: 20px;
+    padding-left: 0;
+}
+
+
+.site-footer {
+    background-color: #2a2d2f;
+    color: #8e9397;
+}
+
+.site-footer a {
+    color: #afb9c0;
+}
+
+
+
+
+
+
+
+
+
+.site-footer h4.widget-title {
+    color: #fff;
+}
+
+.site-footer ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    line-height: 2.1;
+}
+
+.stock-footer-bottom {
+    border-top: 1px solid #3d4246;
+    padding: 20px 0;
+}
+
+.social-icons {
+    font-size: 16px;
+    text-align: right;
+}
+
+.social-icons a {
+    display: inline-block;
+    padding-left: 10px;
+    color: #fff;
+}
+
+.stock-footer-bottom .menu ul {
+    text-align: center;
+    line-height: 1.7;
+}
+
+.site-footer .widget {
+    padding: 70px 0;
+}
