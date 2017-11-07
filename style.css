@@ -24,6 +24,8 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: bold;
 }
 
+
+
 .header-area {
     padding-top: 30px;
 }
@@ -37,6 +39,13 @@ h1, h2, h3, h4, h5, h6 {
     padding: 8px 0;
 }
 
+
+.header-right-content {
+    position: relative;
+    padding-right: 55px;
+}
+
+
 .stock-contact-box {
     display: inline-block;
     position: relative;
@@ -46,10 +55,6 @@ h1, h2, h3, h4, h5, h6 {
     margin-right: 10px;
 }
 
-.header-right-content {
-    position: relative;
-    padding-right: 55px;
-}
 
 .stock-cart, .stock-contact-box i.fa {
     position: absolute;
@@ -63,7 +68,7 @@ h1, h2, h3, h4, h5, h6 {
     border-radius: 50%;
 }
 
-.stock-cart span.stock-cart-count {
+.stock-cart .stock-cart-count {
     position: absolute;
     top: -10px;
     right: -10px;
@@ -112,7 +117,6 @@ h1, h2, h3, h4, h5, h6 {
     padding-left: 0;
 }
 
-
 .site-footer {
     background-color: #2a2d2f;
     color: #8e9397;
@@ -123,14 +127,12 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 
+.site-footer .widget {
+    padding: 70px 0;
+}
 
 
-
-
-
-
-
-.site-footer h4.widget-title {
+.site-footer .widget-title {
     color: #fff;
 }
 
@@ -160,8 +162,4 @@ h1, h2, h3, h4, h5, h6 {
 .stock-footer-bottom .menu ul {
     text-align: center;
     line-height: 1.7;
-}
-
-.site-footer .widget {
-    padding: 70px 0;
 }
